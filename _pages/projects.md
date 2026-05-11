@@ -1,65 +1,35 @@
 ---
 layout: archive
-title: "Projects"
+title: "Awards & Activities"
 permalink: /projects/
+author_profile: true
 ---
 
-<style>
-.project-card {
-  border-left: 4px solid #28a745;
-  background: #f8fff9;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  transition: 0.3s;
-}
+## 🎓 PhD Dissertation
 
-.project-card:hover {
-  background: #eaffea;
-  transform: translateY(-2px);
-}
+**Title:** Gamma-Ray Spectrometric Complex for Determining Absorbed Dose in Boron-Containing Targets Irradiated with Thermal Neutrons
+**Specialty:** 1.3.2 – Instruments and Methods of Experimental Physics
+**Institution:** National Research Nuclear University "MEPhI" (NRNU MEPhI), Moscow, Russia
+**Status:** Defended ✅
+**Supervisor:** Prof. S.E. Ulin
 
-.project-title {
-  font-weight: 600;
-  font-size: 16px;
-}
+---
 
-.project-role {
-  color: #555;
-  margin-top: 5px;
-}
+## 📊 Bibliometric Summary
 
-.project-desc {
-  margin-top: 5px;
-}
+| Metric | Value |
+|---|---|
+| Total publications | 10+ |
+| WoS / Scopus articles | 3 |
+| Citations (Google Scholar) | 6+ |
 
-.project-funding {
-  float: right;
-  color: #28a745;
-  font-weight: 500;
-}
-</style>
+---
 
-## 🚀 Projects
+## 🏛️ Conference Participation
 
-{% for proj in site.data.projects %}
-<div class="project-card">
-
-  <div class="project-funding">
-    {{ proj.funding }}
-  </div>
-
-  <div class="project-title">
-    {{ proj.title }}
-  </div>
-
-  <div class="project-role">
-    {{ proj.role }}
-  </div>
-
-  <div class="project-desc">
-    {{ proj.description }}
-  </div>
-
-</div>
-{% endfor %}
+| Year | Event | Location |
+|------|-------|----------|
+| 2025 | XXI Ishkhanov Conference, Physical Faculty of MSU | Moscow, Russia |
+| 2024 | International Conference on Nuclear Physics | Namangan, Uzbekistan |
+| 2024 | Scientific Conference, Bukhara State University | Bukhara, Uzbekistan |
+| 2023 | Scientific Conference | Tashkent, Uzbekistan |
