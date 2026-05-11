@@ -36,7 +36,7 @@ search_full_content      : true
 # --- Site Author ---
 author:
   name             : "Islombek Himmatov"
-  avatar           : "images/islombek.jpg"
+  avatar           : "islombek.jpg"
   bio              : "Assistant Professor | PhD in Nuclear Physics"
   location         : "Samarkand, Uzbekistan"
   employer         : "Samarkand State University"
