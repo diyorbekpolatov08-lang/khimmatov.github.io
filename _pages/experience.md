@@ -2,58 +2,54 @@
 layout: archive
 title: "Experience"
 permalink: /experience/
+author_profile: true
 ---
 
-<style>
-.timeline {
-  border-left: 3px solid #6c757d;
-  padding-left: 20px;
-}
+## Academic & Research Experience
 
-.exp-item {
-  margin-bottom: 25px;
-  position: relative;
-}
+### Assistant
+**Institute of Nuclear Technologies, Department of Nuclear Physics and Astronomy**
+**Samarkand State University named after Sharof Rashidov**
+*2026 – Present | Samarkand, Uzbekistan*
 
-.exp-item::before {
-  content: "";
-  position: absolute;
-  left: -10px;
-  top: 5px;
-  width: 12px;
-  height: 12px;
-  background: #6c757d;
-  border-radius: 50%;
-}
+- Teaching lectures, practical, and laboratory classes across nine courses
+- Student research supervision in nuclear physics and dosimetry
+- Laboratory infrastructure development and maintenance
+- Gamma-spectrometric measurements and data processing
+- Scientific report writing
 
-.exp-title {
-  font-weight: 600;
-  font-size: 16px;
-}
+---
 
-.exp-place {
-  color: #2c7be5;
-}
+### Doctoral Researcher (PhD Candidate)
+**Department of Nuclear Physics and Astronomy, Samarkand State University**
+*2023 – 2025 | Samarkand, Uzbekistan*
 
-.exp-period {
-  color: #888;
-  font-size: 14px;
-}
+- Research on xenon gamma spectrometers for BNCT dosimetry
+- Operation of gamma spectrometers; radioecological field studies
+- Monte Carlo simulations using GEANT4 and MCNP
+- Collaboration with NRNU MEPhI (Moscow), Supervisor: Prof. S.E. Ulin
+- PhD dissertation defended at NRNU MEPhI
 
-.exp-desc {
-  margin-top: 5px;
-}
-</style>
+---
 
-## 💼 Professional Experience
+### Teacher
+**Department of Natural and Scientific Sciences, Samarkand Institute of Veterinary Medicine**
+*2021 – 2022 | Samarkand, Uzbekistan*
 
-<div class="timeline">
-{% for exp in site.data.experience %}
-  <div class="exp-item">
-    <div class="exp-title">{{ exp.title }}</div>
-    <div class="exp-place">{{ exp.place }}</div>
-    <div class="exp-period">{{ exp.period }}</div>
-    <div class="exp-desc">{{ exp.description }}</div>
-  </div>
-{% endfor %}
-</div>
+Teaching natural sciences and physics to veterinary medicine students.
+
+---
+
+### Laboratory Assistant
+**Department of Nuclear Physics and Astronomy, Samarkand State University**
+*2020 – 2022 | Samarkand, Uzbekistan*
+
+Supporting laboratory sessions in nuclear physics; equipment maintenance and experimental data collection.
+
+---
+
+### Teacher
+**Specialized School for Exact and Natural Sciences at Samarkand State University**
+*2020 – 2021 | Samarkand, Uzbekistan*
+
+Teaching physics and mathematics to gifted secondary school students in a specialized academic environment.
