@@ -1,23 +1,21 @@
 ---
-layout: single
-title: "About me"
 permalink: /
+title: "About me"
+excerpt: "About me"
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
+
 Welcome!
 
-I am a nuclear physicist and researcher specializing in radiation monitoring, nuclear instrumentation, and environmental radioactivity. Currently, I serve as an Associate Professor at Samarkand State University, where I am actively involved in teaching, scientific research, and the development of laboratory infrastructure.
+I am a nuclear physicist and Assistant at the Institute of Nuclear Technologies, Department of Nuclear Physics and Astronomy, Samarkand State University named after Sharof Rashidov. My research focuses on gamma-ray spectrometry, boron neutron capture therapy (BNCT), dosimetry, and Monte Carlo simulations for nuclear medicine applications.
 
-My research focuses on radiation measurements, gamma spectroscopy, and environmental monitoring of radionuclides. I have extensive experience in analyzing radiation data, conducting field measurements, and developing methodologies for radiation safety and nuclear applications.
+I defended my PhD dissertation titled *"Gamma-Ray Spectrometric Complex for Determining Absorbed Dose in Boron-Containing Targets Irradiated with Thermal Neutrons"* at the National Research Nuclear University "MEPhI" (Moscow). My doctoral research was conducted in collaboration with Prof. S.E. Ulin and involved extensive experimental and simulation work on xenon gamma spectrometers applied to neutron capture therapy (NCT) dosimetry, using the medical beam of the IRT MEPhI research reactor.
 
-I obtained my PhD in Nuclear Physics from the Institute of Nuclear Physics (Uzbekistan) in 2021, following my Master’s and Bachelor’s degrees in Physics from Samarkand State University.
+My research interests span atomic and nuclear physics, gamma-ray spectrometry, nuclear medicine (BNCT and GdNCT), neutron physics, accelerator physics, NCT dosimetry, xenon gamma spectrometers, and environmental radioecology. I conduct Monte Carlo simulations using GEANT4 and MCNP for modeling radiation transport and neutron capture processes.
 
-Over the years, I have participated in several international research programs and collaborations. I was a research fellow at the International Atomic Energy Agency (IAEA) in Vienna, where I worked on in-situ gamma spectrometry and data analysis. I also conducted research at the University of Surrey (UK) and Argonne National Laboratory (USA), focusing on detector calibration, nuclear reactor simulations, and radiation measurements.
+I have published over 10 scientific works, including 3 articles indexed in Web of Science and Scopus, with more than 6 citations (Google Scholar). My publications appear in journals such as the Bulletin of the Lebedev Physics Institute and Physics of Atomic Nuclei.
 
-In addition, I was a visiting scholar at the Massachusetts Institute of Technology (MIT), contributing to the development of computational tools for reactor physics using Python and OpenMC.
-
-I have led and contributed to multiple international and national projects, including IAEA technical cooperation programs and research initiatives funded by international organizations. My work includes designing laboratory systems, developing educational programs, and implementing modern technologies in nuclear science education.
-
-I am the author of numerous scientific publications in international peer-reviewed journals and conference proceedings. My research interests also extend to data analysis, simulation, and the application of modern computational techniques in nuclear science.
-
-
+In my teaching role, I deliver lectures, practical, and laboratory classes across nine courses ranging from General Physics and Nuclear Physics to specialized electives in Brachytherapy, Proton Therapy, Radioisotope Production, and BNCT. I also supervise student research and contribute to laboratory infrastructure development.
