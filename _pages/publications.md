@@ -2,82 +2,45 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+author_profile: true
 ---
 
-<style>
-.pub-card {
-  border-left: 4px solid #2c7be5;
-  background: #f9fbfd;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  transition: 0.3s;
-}
+## WoS / Scopus Articles
 
-.pub-card:hover {
-  background: #eef5ff;
-  transform: translateY(-2px);
-}
+1. **I.F. Khimmatov**, S.E. Ulin et al.
+   Prospects of using a xenon gamma spectrometer in boron neutron capture therapy on the medical beam of the IRT MEPhI research reactor.
+   *Bulletin of the Lebedev Physics Institute*, Vol. 52, No. 9, pp. 72–82, **2025**
 
-.pub-title {
-  font-weight: 600;
-  font-size: 16px;
-  color: #1a1a1a;
-}
+2. **I.F. Khimmatov**, S.E. Ulin.
+   Determination of the dose load in neutron capture therapy using a xenon gamma-ray spectrometer.
+   *Bulletin of the Lebedev Physics Institute*, Vol. 52, No. 4, pp. 179–184, **2025** *(1 citation)*
 
-.pub-authors {
-  color: #555;
-  margin-top: 5px;
-}
+3. **I.F. Khimmatov**, S.E. Ulin.
+   Use of a xenon gamma spectrometer for dosimetry in boron–neutron capture therapy.
+   *Physics of Atomic Nuclei*, Vol. 87, No. 5, pp. 620–624, **2024** *(5 citations)*
 
-.pub-journal {
-  font-style: italic;
-  color: #2c7be5;
-  margin-top: 5px;
-}
+4. **I.F. Khimmatov**, S.E. Ulin.
+   A brief review of NCT dosimetry.
+   *Austrian Journal of Technical and Natural Sciences*, No. 9–10, pp. 48–51, **2023**
 
-.pub-year {
-  float: right;
-  color: #888;
-}
-</style>
+---
 
-## 📄 Publications
+## Other Publications & Conference Proceedings
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
+5. Application of a xenon gamma spectrometer for NCT.
+   *Proceedings of Physical Faculty of MSU*, **2025** *(VAK K2)*
 
-{% for pub in pubs %}
-<div class="pub-card">
+6. Gamma spectrometers in nuclear medicine.
+   *New Uzbekistan: Science, Education and Innovation*, **2024**
 
-  <div class="pub-year">{{ pub.year }}</div>
+7. Modeling of neutron capture therapy using GEANT4.
+   *Scientific Bulletin of Bukhara State University*, **2024**
 
-  <div class="pub-title">
-    {% if pub.doi %}
-      <a href="{{ pub.doi }}" style="text-decoration:none; color:#1a1a1a;">
-        {{ pub.title }}
-      </a>
-    {% else %}
-      {{ pub.title }}
-    {% endif %}
-  </div>
+8. Optimizing gadolinium-157 mediated neutron capture therapy through GEANT4 simulations.
+   *International Conference*, Namangan, **2024**
 
-  <div class="pub-authors">
-    {{ pub.authors }}
-  </div>
+9. Application of a xenon gamma spectrometer for neutron capture therapy.
+   *XXI Ishkhanov Conference*, MSU, Moscow, **2024**
 
-  <div class="pub-journal">
-    {{ pub.journal }}
-  </div>
-
-  <div style="margin-top:8px;">
-  {% if pub.pdf %}
-    <a href="{{ pub.pdf }}" style="margin-right:10px; text-decoration:none; color:#2c7be5;">📄 PDF</a>
-  {% endif %}
-  
-  {% if pub.doi %}
-    <a href="{{ pub.doi }}" style="text-decoration:none; color:#2c7be5;">🔗 DOI</a>
-  {% endif %}
-</div>
-
-</div>
-{% endfor %}
+10. Xenon gamma spectrometers in nuclear medicine.
+    *Conference Proceedings*, Tashkent, **2023**
