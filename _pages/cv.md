@@ -1,133 +1,98 @@
 ---
-layout: single
-title: "Curriculum Vitae"
+layout: archive
+title: "CV"
 permalink: /cv/
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
-<style>
-.cv-section {
-  margin-top: 30px;
-}
+{% include base_path %}
 
-.cv-title {
-  font-size: 22px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-}
+## Education
 
-.cv-item {
-  margin-top: 15px;
-}
+* **PhD in Nuclear Physics**
+  Samarkand State University named after Sharof Rashidov
+  *2023 – 2025*
+  Dissertation defended at: National Research Nuclear University "MEPhI" (NRNU MEPhI), Moscow
+  Title: *Gamma-Ray Spectrometric Complex for Determining Absorbed Dose in Boron-Containing Targets Irradiated with Thermal Neutrons*
+  Specialty: 1.3.2 – Instruments and Methods of Experimental Physics
 
-.cv-role {
-  font-weight: 600;
-}
+* **MSc in Nuclear Physics**
+  Samarkand State University named after Sharof Rashidov
+  *2019 – 2021*
 
-.cv-place {
-  color: #2c7be5;
-}
-
-.cv-period {
-  float: right;
-  color: #888;
-}
-
-.cv-desc {
-  margin-top: 5px;
-}
-</style>
-
-## 📄 Curriculum Vitae
-
-👉 <a href="/files/Akmal_Safarov_resume.pdf" style="color:#2c7be5; font-weight:600;">⬇ Download Full CV (PDF)</a>
+* **BSc (Hons) in Physics**
+  Samarkand State University named after Sharof Rashidov
+  *2014 – 2018*
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">💼 Professional Experience</div>
+## Professional Experience
 
-<div class="cv-item">
-<span class="cv-role">Associate Professor</span>
-<span class="cv-period">2019 – Present</span><br>
-<span class="cv-place">Samarkand State University</span>
-<div class="cv-desc">
-Teaching, project management, and nuclear laboratory development.
-</div>
-</div>
+* **Assistant** — Institute of Nuclear Technologies, Department of Nuclear Physics and Astronomy, Samarkand State University
+  *2026 – Present* | Samarkand, Uzbekistan
+  - Teaching, student research supervision, laboratory infrastructure development
+  - Gamma-spectrometric measurements, data processing, report writing
+  - Courses: Physics Practicum, Methods of Recording Nuclear Radiation, Radioisotope Production, Physics Part 2, Elements of Microworld Physics, Brachytherapy and Proton Therapy, Atomic Nucleus and Elementary Particles, General Physics, Fundamentals of Astronomy and Astrophysics
 
-<div class="cv-item">
-<span class="cv-role">Visiting Scholar</span>
-<span class="cv-period">2022</span><br>
-<span class="cv-place">MIT, USA</span>
-<div class="cv-desc">
-Worked on reactor physics simulations using Python and OpenMC.
-</div>
-</div>
+* **Doctoral Researcher (PhD candidate)** — Department of Nuclear Physics and Astronomy, Samarkand State University
+  *2023 – 2025* | Samarkand, Uzbekistan
+  - Research projects in gamma spectrometry and BNCT dosimetry
+  - Gamma spectrometer operation and radioecological studies
+  - Monte Carlo simulations using GEANT4 and MCNP
 
-<div class="cv-item">
-<span class="cv-role">Research Fellow</span>
-<span class="cv-period">2015 – 2016</span><br>
-<span class="cv-place">IAEA, Vienna</span>
-<div class="cv-desc">
-Gamma spectrometry and radiation data analysis.
-</div>
-</div>
+* **Teacher** — Samarkand Institute of Veterinary Medicine, Department of Natural and Scientific Sciences
+  *2021 – 2022* | Samarkand, Uzbekistan
 
-</div>
+* **Laboratory Assistant** — Department of Nuclear Physics and Astronomy, Samarkand State University
+  *2020 – 2022* | Samarkand, Uzbekistan
+
+* **Teacher** — Specialized School for Exact and Natural Sciences at Samarkand State University
+  *2020 – 2021* | Samarkand, Uzbekistan
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🎓 Education</div>
+## Technical Skills
 
-<div class="cv-item">
-PhD in Nuclear Physics — Institute of Nuclear Physics (2021)
-</div>
-
-<div class="cv-item">
-MSc in Nuclear Physics — Samarkand State University (2009)
-</div>
-
-<div class="cv-item">
-BSc in Physics — Samarkand State University (2007)
-</div>
-
-</div>
+| Category | Tools |
+|---|---|
+| Programming | Python, C++ |
+| Simulation | GEANT4, MCNP |
+| Spectral Analysis | ROOT (CERN) |
+| Operating Systems | Windows, Linux |
+| Office | MS Word, Excel, PowerPoint |
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🔬 Research Interests</div>
+## Bibliometric Data
 
-- Radiation monitoring  
-- Nuclear instrumentation  
-- Environmental radioactivity  
-- Data analysis and simulations  
-
-</div>
+- **Total publications:** 10+
+- **WoS / Scopus articles:** 3
+- **Citations:** 6+ (Google Scholar)
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🛠 Skills</div>
+## Languages
 
-- Programming: C++, Python  
-- Data Analysis: ROOT, Origin  
-- Mapping: QGIS, Google Earth  
-- Software: MATLAB, Mathematica  
-- Systems: Linux, Windows  
-
-</div>
+| Language | Level |
+|---|---|
+| Uzbek | Native |
+| English | B2 (IELTS 6.0) |
+| Russian | B2 |
 
 ---
 
-<div class="cv-section">
-<div class="cv-title">🌍 Languages</div>
+## Publications
 
-- English  
-- Russian  
-- Uzbek  
-- Tajik  
+{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
 
-</div>
+---
+
+## Teaching
+
+{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}
