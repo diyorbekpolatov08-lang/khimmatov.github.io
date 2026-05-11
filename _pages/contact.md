@@ -1,75 +1,42 @@
 ---
-layout: single
+layout: archive
 title: "Contact"
 permalink: /contact/
+author_profile: true
 ---
-
-<style>
-.contact-container {
-  max-width: 700px;
-  margin: auto;
-}
-
-.contact-card {
-  border-left: 4px solid #2c7be5;
-  background: #f9fbfd;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.contact-item {
-  margin: 12px 0;
-  font-size: 16px;
-}
-
-.contact-item a {
-  color: #2c7be5;
-  text-decoration: none;
-}
-
-.contact-item a:hover {
-  text-decoration: underline;
-}
-
-.contact-title {
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-</style>
-
-<div class="contact-container">
 
 ## 📬 Get in Touch
 
-I am open to academic collaboration, research projects, and international partnerships.  
-Feel free to contact me via the following channels:
+I welcome inquiries related to nuclear physics research, BNCT dosimetry, gamma spectrometry, Monte Carlo simulations, and academic collaboration.
 
-<div class="contact-card">
+---
 
-<div class="contact-item">
-📧 <strong>Email:</strong>  
-<a href="mailto:akmaljon1985@yahoo.com">akmaljon1985@yahoo.com</a>
-</div>
+## 📧 Email
 
-<div class="contact-item">
-📍 <strong>Location:</strong>  
+[islombekhimmatov24@gmail.com](mailto:islombekhimmatov24@gmail.com)
+
+---
+
+## 🏛️ Institutional Address
+
+**Islombek Himmatov**
+Assistant, Institute of Nuclear Technologies
+Department of Nuclear Physics and Astronomy
+Samarkand State University named after Sharof Rashidov
 Samarkand, Uzbekistan
-</div>
 
-<div class="contact-item">
-🎓 <strong>Institution:</strong>  
-Samarkand State University
-</div>
+---
 
-<div class="contact-item">
-🔬 <strong>Research Profiles:</strong><br>
+## 📞 Phone
 
-<a href="https://scholar.google.com/citations?user=wcaTmm8AAAAJ&hl=en&oi=ao">Google Scholar</a> |  
-<a href="https://orcid.org/0000-0002-8992-5768">ORCID</a> |  
-<a href="https://www.scopus.com/authid/detail.uri?authorId=8941870200">Scopus</a>
-</div>
+**Mobile:** +998 99 045 04 69
 
-</div>
+---
 
-</div>
+## 🤝 Open to
+
+- Collaboration in BNCT, GdNCT, and nuclear medicine dosimetry
+- Joint Monte Carlo simulation projects (GEANT4, MCNP)
+- Gamma-spectrometric measurement campaigns
+- Co-authorship on nuclear physics and medical physics publications
+- Student research supervision in nuclear physics
